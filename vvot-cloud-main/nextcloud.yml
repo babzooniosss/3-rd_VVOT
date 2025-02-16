@@ -137,7 +137,7 @@
       lineinfile:
         path: /var/www/html/nextcloud/config/config.php
         regexp: "^\\s*'trusted_domains' =>"
-        line: "  'trusted_domains' => array ( 0 => 'localhost', 1 => '89.169.146.244', 2 => 'vvot19.itiscl.ru', 3 => '[2001:db8::1]', ),"
+        line: "  'trusted_domains' => array ( 0 => 'localhost', 1 => '89.169.XXX.XXX', 2 => 'vvot19.itiscl.ru', 3 => '[2001:db8::1]', ),"
         insertafter: "'instanceid' =>"
 
 
